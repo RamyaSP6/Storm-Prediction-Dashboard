@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 19 21:18:39 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -70,4 +70,5 @@ folium.Marker([11.3410,77.7172],
               tooltip=tooltip,
               icon=folium.Icon(icon='cloud')).add_to(m),
 m.add_child(fg)
+
 m.save('samp.html')
