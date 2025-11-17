@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 20 13:25:54 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -29,4 +29,5 @@ folium.Marker([28.7886,77.1412],
 
 
 m.add_child(fg)
+
 m.save('delhi.html')
