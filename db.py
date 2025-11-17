@@ -2,7 +2,7 @@
 """
 Created on Sun Jan 17 20:41:53 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -68,3 +68,4 @@ def state(statename):
             cursor.close()
             connection.close()
             print("MySQL connection is closed")
+
