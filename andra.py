@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 20 13:15:42 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 import folium
@@ -35,4 +35,5 @@ folium.Marker([17.6868, 83.2185],
               icon=folium.Icon(icon='cloud')).add_to(m),
 
 m.add_child(fg)
+
 m.save('andra.html')
