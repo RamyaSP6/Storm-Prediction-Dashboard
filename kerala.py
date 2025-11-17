@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 20 12:53:11 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 import folium
@@ -41,4 +41,5 @@ folium.Marker([10.7867,76.6548],
               icon=folium.Icon(icon='cloud')).add_to(m),
 
 m.add_child(fg)
+
 m.save('kerala.html')
