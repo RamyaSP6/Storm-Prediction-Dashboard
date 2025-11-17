@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 20 13:25:54 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -37,4 +37,5 @@ folium.Marker([23.1765,75.7885],
 
 
 m.add_child(fg)
+
 m.save('madhya.html')
