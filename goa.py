@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 20 13:53:48 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 import folium
@@ -22,4 +22,5 @@ folium.Marker([15.5163,73.9830],
 
 
 m.add_child(fg)
+
 m.save('goa.html')
