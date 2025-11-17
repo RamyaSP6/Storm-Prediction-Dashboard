@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 18 21:39:54 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 #import pymysql
@@ -67,3 +67,4 @@ def state(statename):
             cursor.close()
             connection.close()
             print("MySQL connection is closed")
+
