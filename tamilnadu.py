@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 19 19:17:51 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -10,7 +10,7 @@ Created on Tue Jan 19 19:17:51 2021
 """
 Created on Tue Jan 19 11:40:44 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -32,4 +32,5 @@ folium.Marker([11.059821,78.387451],
 
 
 m.add_child(fg)
+
 m.save('model.html')
