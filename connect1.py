@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 18 22:14:02 2021
 
-@author: Gayathri
+@author: Ramya
 """
 
 
@@ -52,4 +52,5 @@ def country(m,statename):
     ob.sendmail("infotech2k22@gmail.com",m,text)
 
     print("Sent Successfully")
+
     ob.quit()
